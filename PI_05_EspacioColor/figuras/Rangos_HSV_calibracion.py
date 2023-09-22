@@ -5,7 +5,7 @@ def nothing(x):
     pass
 
 # Load image
-image = cv2.imread('flor_morada.jpg')
+image = cv2.imread('img_yellow.jpg')
 image = cv2.resize(image, (609,400), interpolation = cv2.INTER_AREA)
 
 # Create a window
